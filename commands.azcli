@@ -1,5 +1,4 @@
 # Deploy an ARM template
-az deployment create \
---name my-bicep-deployment \
---location eastus \
+az deployment group create \
+--resource-group azure_devops_learning \
 --template-file main.json
