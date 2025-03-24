@@ -1,0 +1,5 @@
+# Deploy an ARM template
+az deployment create \
+--name my-bicep-deployment \
+--location eastus \
+--template-file main.json
